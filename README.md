@@ -18,13 +18,13 @@ A detailed description of the work is provided in our paper *Compensating Superv
 
 ## Using the Source Code
 
-- The `data` folder contains the VRD training and test set encoded for LTNs, the ontology that defines the logical constraints and the images in the test set. The VRD can be downloaded from https://cs.stanford.edu/people/ranjaykrishna/vrd/.
+- The `data` folder contains the LTNs encoding of the VRD training and test set, the ontology that defines the logical constraints and the images of the VRD test set. Images and their annotations can be downloaded from https://cs.stanford.edu/people/ranjaykrishna/vrd/.
 - The `models` folder contains the trained grounded theories of the experiments;
 - The `Visual-Relationship-Detection-master` folder contains the object detector model and the evaluation code provided in https://github.com/Prof-Lu-Cewu/Visual-Relationship-Detection for the evaluation of the phrase, relationship and predicate detection tasks on the VRD.
 
 **Requirements**
 
-We train and test the models with the following software configuration. However, more recent versions of the libraries could also work:
+We train and test the grounded theories with the following software configuration. However, more recent versions of the libraries could also work:
 
 - Ubuntu 14.04;
 - Matlab R2014a;
@@ -50,15 +50,3 @@ $ python predicate_detection.py
 $ python relationship_phrase_detection.py
 ```
 Then, launch Matlab, move into the `Visual-Relationship-Detection-master` folder, execute the scripts `predicate_detection_LTN.m` and `relationship_phrase_detection_LTN.m` and see the results.
-
-
-
-
-
-## The Food and Food Categories (FFoCat) Dataset
-
-[Here](http://bit.do/eGcW5) you can download the `FFoCat.zip` file, unzip it in your local machine. The dataset is already divided into the `train` and `test` folder. The file `label.tsv` contains the food labels, the file `food_food_category_map.tsv` contains the food labels with the corresponding food category labels. 
-
-
-
-
