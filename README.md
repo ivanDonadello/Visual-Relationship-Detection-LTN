@@ -1,6 +1,6 @@
 # LOGIC TENSOR NETWORKS FOR VISUAL RELATIONSHIP DETECTION
 
-This repository contains the dataset, the source code and the models for the detection of visual relationships with [Logic Tensor Networks] (https://github.com/logictensornetworks/logictensornetworks).
+This repository contains the dataset, the source code and the models for the detection of visual relationships with [Logic Tensor Networks](https://github.com/logictensornetworks/logictensornetworks).
 
 ## Introduction
 
@@ -38,7 +38,7 @@ We train and test the models with the following software configuration. However,
 - Ubuntu 14.04;
 - Matlab R2014a;
 - Python 2.7.6;
-- TensorFlow 0.11;
+- TensorFlow 0.11.0;
 - Numpy 1.13.1;
 - Scikit-learn 0.18.1;
 - Matplotlib 1.5.1;
