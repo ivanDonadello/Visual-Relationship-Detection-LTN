@@ -1,1 +1,6 @@
-This folder is a fork of the [VRD Github repository](https://github.com/Prof-Lu-Cewu/Visual-Relationship-Detection). You can copy the content of the repository here. In addition, the folder contains the Matlab scripts `predicate_detection_LTN.m` and `relationship_phrase_detection_LTN.m` necessary for evaluating the LTNs models.
+This folder contains some temporary files necessary for the evaluation of the LTNs grounded theories. They are the output of
+```
+$ python predicate_detection.py
+$ python relationship_phrase_detection.py
+```
+and the input for `predicate_detection_LTN.m` and `relationship_phrase_detection_LTN.m`.
