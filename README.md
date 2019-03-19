@@ -20,16 +20,13 @@ Detailed description of the task and our model is provided in our paper at ECCV 
  }
 ```
 
+- `code`: it contains the VRD and the associated logical constraints, the models folder, the evaluation code for VRD and the source code of LTNs.
+
 ## Using the Source Code
 
-- The `models` folder will contain the multiclass and multilabel models after the training;
-- The `history` folder will contain the accuracies and losses of the multiclass and multilabel models after the training;
-- The `results` folder will contain the precision-recall curves results for the trained models after the evaluation.
-
-- `code`: it contains the VRD and the associated logical constraints, the models folder, the evaluation code for VRD and the source code of LTNs.
-    - `data`: this folder contains the VRD training and test set encoded for LTNs, the ontology that defines the logical constraints and the images in the test set. The VRD can be downloaded from https://cs.stanford.edu/people/ranjaykrishna/vrd/.
-    - `models`: the trained grounded theories of the experiments;
-    - `Visual-Relationship-Detection-master`: this is the evaluation code provided in https://github.com/Prof-Lu-Cewu/Visual-Relationship-Detection for the evaluation of the phrase, relationship and predicate detection tasks on the VRD.
+- The `data` folder contains the VRD training and test set encoded for LTNs, the ontology that defines the logical constraints and the images in the test set. The VRD can be downloaded from https://cs.stanford.edu/people/ranjaykrishna/vrd/.
+- The `models` folder contains the trained grounded theories of the experiments;
+- The `Visual-Relationship-Detection-master` folder contains the evaluation code provided in https://github.com/Prof-Lu-Cewu/Visual-Relationship-Detection for the evaluation of the phrase, relationship and predicate detection tasks on the VRD.
 
 **Requirements**
 
