@@ -4,7 +4,7 @@ This repository contains the dataset, the source code and the models for the det
 
 ## Introduction
 
-Semantic Image Interpretation is the task of extracting a structured semantic description from images. This requires the detection of *visual relationships*: triples (subject, relation, object) describing a semantic relation between the bounding box of a subject and the bounding box of an object. Here, we perform the detection of visual relationships by using Logic Tensor Networks (LTNs), a novel Statistical Relational Learning framework that exploits both the similarities with other seen relationships and background knowledge, expressed with logical constraints between subjects, relations and objects. The experiments are conducted on the Visual Relationship Dataset (VRD)/
+Semantic Image Interpretation is the task of extracting a structured semantic description from images. This requires the detection of *visual relationships*: triples (subject, relation, object) describing a semantic relation between the bounding box of a subject and the bounding box of an object. Here, we perform the detection of visual relationships by using Logic Tensor Networks (LTNs), a novel Statistical Relational Learning framework that exploits both the similarities with other seen relationships and background knowledge, expressed with logical constraints between subjects, relations and objects. The experiments are conducted on the Visual Relationship Dataset (VRD).
 
 A detailed description of the work is provided in our paper *Compensating Supervision Incompleteness with Prior Knowledge in Semantic Image Interpretation* at IJCNN 2019:
 ```
