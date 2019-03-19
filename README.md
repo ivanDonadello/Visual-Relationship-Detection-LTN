@@ -26,7 +26,7 @@ Detailed description of the task and our model is provided in our paper at ECCV 
 
 - The `data` folder contains the VRD training and test set encoded for LTNs, the ontology that defines the logical constraints and the images in the test set. The VRD can be downloaded from https://cs.stanford.edu/people/ranjaykrishna/vrd/.
 - The `models` folder contains the trained grounded theories of the experiments;
-- The `Visual-Relationship-Detection-master` folder contains the evaluation code provided in https://github.com/Prof-Lu-Cewu/Visual-Relationship-Detection for the evaluation of the phrase, relationship and predicate detection tasks on the VRD.
+- The `Visual-Relationship-Detection-master` folder contains the object detector model and the evaluation code provided in https://github.com/Prof-Lu-Cewu/Visual-Relationship-Detection for the evaluation of the phrase, relationship and predicate detection tasks on the VRD.
 
 **Requirements**
 
@@ -46,7 +46,7 @@ To run a train use the following command:
 ```sh
 $ python train.py
 ```
-- The trained grounded theories are saved in the `models` folder in the files `KB_nc_10000.ckpt` (no constraints) and `KB_wc_10000.ckpt` (with constraints). The number in the filename (`10000`) is a parameter in the code to set the number of iterations.
+- The trained grounded theories are saved in the `models` folder in the files `KB_nc_2500.ckpt` (no constraints) and `KB_wc_2500.ckpt` (with constraints). The number in the filename (`2500`) is a parameter in the code to set the number of iterations.
 
 **Evaluating the grounded theories**
 
