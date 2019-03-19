@@ -1,0 +1,1 @@
+This folder contains the trained grounded theorie for the Visual Relationship Dataset. Already trained models can be found [here](https://drive.google.com/drive/folders/11FS_O4jZpBmrtz2ZGtxjtBHUzFg5M1l1?usp=sharing).
