@@ -4,13 +4,9 @@ This repository contains the dataset, the source code and the models for the det
 
 ## Introduction
 
-Visual Relationship Detection is a task where the input is a simple image and the model is supposed to predict a set of relationships that are true about the image. There relationships are in the form of . Visual Relationship Detection is a natural extension to object detection where we now not only detect the objects in an image but predict how they are interacting with one another.
+Semantic Image Interpretation is the task of extracting a structured semantic description from images. This requires the detection of *visual relationships*: triples (subject, relation, object) describing a semantic relation between the bounding box of a subject and the bounding box of an object. Here, we perform the detection of visual relationships by using Logic Tensor Networks (LTNs), a novel Statistical Relational Learning framework that exploits both the similarities with other seen relationships and background knowledge, expressed with logical constraints between subjects, relations and objects. The experiments are conducted on the Visual Relationship Dataset (VRD)/
 
-Detailed description of the task and our model is provided in our paper at ECCV 2016.
-
-- This repository contains the implementation of the paper *Compensating Supervision Incompleteness with Prior Knowledge in Semantic Image Interpretation*, the generated grounded theories, Python and Matlab scripts for the evaluation and the Visual Relationship Dataset (VRD).
-- You can use/test the trained grounded theories or train a new grounded theory, see how-tos below.
-
+A detailed description of the work is provided in our paper *Compensating Supervision Incompleteness with Prior Knowledge in Semantic Image Interpretation* at IJCNN 2019:
 ```
 @InProceedings{donadello2019compensating,
    title = {Compensating Supervision Incompleteness with Prior Knowledge in Semantic Image Interpretation},
@@ -19,8 +15,6 @@ Detailed description of the task and our model is provided in our paper at ECCV 
    year = to appear,
  }
 ```
-
-- `code`: it contains the VRD and the associated logical constraints, the models folder, the evaluation code for VRD and the source code of LTNs.
 
 ## Using the Source Code
 
