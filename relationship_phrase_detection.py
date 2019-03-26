@@ -88,8 +88,8 @@ for pic_idx in range(detection_bboxes.shape[1]):
     sub_labels_ours.append(sub_label_per_image)
 
 model_list = [
-    "models/KB_wc_10000.ckpt",
-    "models/KB_nc_10000.ckpt"]
+    "models/KB_wc_2500.ckpt",
+    "models/KB_nc_2500.ckpt"]
 
 for model_type in model_list:
 
