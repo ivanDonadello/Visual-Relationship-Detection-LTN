@@ -15,6 +15,7 @@ A detailed description of the work is provided in our paper *Compensating Superv
    year = to appear,
  }
 ```
+[Here](https://www.youtube.com/watch?v=y2-altg3FFw) a video shows a demo of the system.
 
 ## Using the Source Code
 
