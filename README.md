@@ -9,10 +9,8 @@ Semantic Image Interpretation is the task of extracting a structured semantic de
 A detailed description of the work is provided in our paper *Compensating Supervision Incompleteness with Prior Knowledge in Semantic Image Interpretation* at IJCNN 2019:
 ```
  @inproceedings{donadello2019compensating,
-  author    = {Ivan Donadello and
-               Luciano Serafini},
-  title     = {Compensating Supervision Incompleteness with Prior Knowledge in Semantic
-               Image Interpretation},
+  author    = {Ivan Donadello and Luciano Serafini},
+  title     = {Compensating Supervision Incompleteness with Prior Knowledge in Semantic Image Interpretation},
   booktitle = {{IJCNN}},
   pages     = {1--8},
   publisher = {{IEEE}},
