@@ -1,1 +1,1 @@
-This folder contains the trained grounded theories for the Visual Relationship Dataset. Already trained models can be found [here](https://scientificnet-my.sharepoint.com/:f:/g/personal/idonadello_unibz_it/ErXk-2f_4adMocsnKky8N14B642SP11kcOB7JzjcCYsZVw?e=osbStI).
+This folder contains the trained grounded theories for the Visual Relationship Dataset. Already trained models can be found [here](https://scientificnet-my.sharepoint.com/:f:/g/personal/idonadello_unibz_it/ErXk-2f_4adMocsnKky8N14BiwaSmanWehp8WIj9ACXfiw?e=nhaFzf).
